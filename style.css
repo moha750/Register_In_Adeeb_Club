@@ -68,7 +68,7 @@ border-radius:5px;
 margin-top: 16px;
 text-align: right;
 color: #274060;
-font-family: bb;
+font-family: m;
 }
 
 #adeabTeam {
@@ -130,8 +130,10 @@ background-color: #0051B2;
  }
  
  h4 {
+  font-size: 17px;
   color: #274060;
   font-family: bb;
+  margin-bottom: 5px;
  }
  
  .parent{
@@ -214,7 +216,7 @@ background-color: #0051B2;
      color: #009345;
  }
  .content p{
-     font-size:13px;
+     font-size:14px;
      color:#335C81;
      font-family: m;
  }
@@ -271,7 +273,7 @@ background-color: #0051B2;
 
  textarea {
   width:100%;
-  height:317px;
+  height:222px;
   border:none;
   border:2px solid rgb(245, 245, 245);
   box-shadow:0px 5px 20px 2px rgba(0,0,0,0.1);
@@ -283,7 +285,8 @@ background-color: #0051B2;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: right;
-  color: #98c93c;
+  color: #274060;
+  font-family: m;
  } 
 
 
@@ -464,7 +467,7 @@ margin-bottom: 10px;
   cursor:pointer;
   transition:all 0.5s;
   border: none;
-  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 12px;
 }
 
@@ -478,7 +481,7 @@ margin-bottom: 10px;
   cursor:pointer;
   transition:all 0.5s;
   border: none;
-  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 12px;
 }
 
@@ -885,8 +888,15 @@ input[type="color"] {
 
 
 .fintitle {
-  margin: 15px 0px;
+  margin: 15px 0px 0px;
+  text-align: center;
 }
+
+.fintitle-1 {
+  margin: 5px 0px 10px;
+  text-align: center;
+}
+
 
 
 
@@ -1097,4 +1107,8 @@ input[type="color"] {
 
 .swal2-title{
   color:#274060 !important;
+}
+
+.swal2-html-container, .swal2-title {
+  text-align: center !important;
 }
